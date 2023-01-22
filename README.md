@@ -25,7 +25,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 Kindly not that I deployed my applications using docker container. the docker-compose, Dockerfile are on the root directory of this projects
 
-You can the database hostname to localhost in your .env file if you are not using docker
+You can change the database hostname to localhost in your .env file if you are not using docker
 
 •	git clone ...
 •	php artisan migrate

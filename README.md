@@ -7,6 +7,24 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Deploy application
+
+Kindly note that I deployed my applications using docker container. the docker-compose, Dockerfile are on the root directory of this projects
+
+You can change the database hostname to localhost in your .env file if you are not using docker
+
+- 	git clone ...
+- 	php artisan migrate
+- 	php artisan db:seed
+- 	php artisan serve
+
+
+
+- 	To get access token by default use
+    -  email: esekelvin24@gmail.com
+    -  password: password
+
+    
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
@@ -21,16 +39,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Deploy application
 
-Kindly not that I deployed my applications using docker container. the docker-compose, Dockerfile are on the root directory of this projects
-
-You can change the database hostname to localhost in your .env file if you are not using docker
-
-•	git clone ...
-•	php artisan migrate
-•	php artisan db:seed
-•	php artisan serve
 
 
 ## Learning Laravel
